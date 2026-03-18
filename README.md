@@ -31,13 +31,14 @@
 ### 1. 安装环境
 ```bash
 pip install torch torchvision opencv-python pillow streamlit
+```
 
 ---
 
-## 2. 运行桌面交互版 (GUI)
+### 2. 运行桌面交互版 (GUI)
 ```bash
 python gui_app.py
-
+```
 
 🛠️ 常见问题排查
 ModuleNotFoundError: 请确保已激活对应的虚拟环境并执行了 pip install -r requirements.txt。
