@@ -40,10 +40,12 @@ pip install torch torchvision opencv-python pillow streamlit
 python gui_app.py
 ```
 ---
-##🛠️ 常见问题排查
-ModuleNotFoundError: 请确保已激活对应的虚拟环境并执行了 pip install -r requirements.txt。
 
-识别偏移: 如果笔画过细，可以在 gui_app.py 中尝试调大 dilation_iter 参数。
+##🛠️ 常见问题排查
+###ModuleNotFoundError: 请确保已激活对应的虚拟环境并执行了 pip install -r requirements.txt。
+###识别偏移: 如果笔画过细，可以在 gui_app.py 中尝试调大 dilation_iter 参数。
+
 ---
+
 ##🤝 贡献与反馈
 如果你有任何改进建议，欢迎提交 Issue 或 Pull Request！
