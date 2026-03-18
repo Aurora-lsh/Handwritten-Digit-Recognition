@@ -37,7 +37,7 @@ cd Handwritten-Digit-Recognition
 ### 2. 一键安装依赖 (使用已导出的 requirements.txt)
 ```bash
 pip install -r requirements.txt
-···
+```
 ---
 
 ### 3. 运行桌面交互版 (GUI)
