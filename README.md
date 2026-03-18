@@ -18,7 +18,7 @@
 ---
 
 ## 📂 目录结构
-
+```
 Handwritten-Digit-Recognition/
 ├── data/               # 存放 MNIST 数据集的文件夹（运行data_setup.py下载）
 ├── data_setup.py       # 数据下载与预处理工具脚本
@@ -29,7 +29,7 @@ Handwritten-Digit-Recognition/
 ├── requirements.txt    # 项目所需的库依赖清单（torch, cv2 等）
 ├── test_digit.jpg      # 用于单次测试的示例图片
 └── mnist_cnn.pth       # 训练好的模型权重文件（大脑核心）
-
+```
 ---
 
 ## 🚀 快速开始
