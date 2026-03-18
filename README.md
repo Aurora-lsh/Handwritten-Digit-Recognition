@@ -28,7 +28,7 @@
 ---
 
 ## 🚀 快速开始
-###1. 克隆仓库
+### 1. 克隆仓库
 ```bash
 git clone [https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git](https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git)
 cd Handwritten-Digit-Recognition
