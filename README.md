@@ -1,7 +1,7 @@
 # Handwritten Digit Recognition System (PyTorch + GUI)
 
 ## 📖 项目简介
-本项目是一个全栈式的手写数字识别解决方案。不同于标准的 MNIST 示例，本项目重点解决了**真实场景下**手写数字识别率低的问题。通过引入形态学处理，使得模型能更准确地识别用户在桌面 GUI 或网页端书写的数字。
+本项目是一个全栈式的手写数字识别解决方案。不同于标准的 MNIST 示例，本项目重点解决了**真实场景下**手写数字识别率低的问题。通过引入形态学处理，使得模型能更准确地识别用户在桌面 GUI 书写的数字。
 
 ![Handwritten digit recognition](https://github.com/user-attachments/assets/57f177c7-8652-4734-b540-99ba5be8894e)
 
