@@ -28,14 +28,19 @@
 ---
 
 ## 🚀 快速开始
-### 1. 安装环境
+###1. 克隆仓库
 ```bash
-pip install torch torchvision opencv-python pillow streamlit
+git clone [https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git](https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git)
+cd Handwritten-Digit-Recognition
 ```
-
+---
+### 2. 一键安装依赖 (使用已导出的 requirements.txt)
+```bash
+pip install -r requirements.txt
+···
 ---
 
-### 2. 运行桌面交互版 (GUI)
+### 3. 运行桌面交互版 (GUI)
 ```bash
 python gui_app.py
 ```
