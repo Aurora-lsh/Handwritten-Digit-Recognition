@@ -17,30 +17,30 @@
 
 ---
 
-## 📂 文件说明
-- `gui_app.py`: **[推荐]** 基于 Tkinter 的桌面版绘图识别工具。
-- `app.py`: 基于 Streamlit 的交互网页版。
-- `predict.py`: 存放核心的图像预处理与推理逻辑。
-- `model.py`: 定义神经网络结构。
-- `train.py`: 自动化训练脚本。
-- `mnist_cnn.pth`: 预训练好的模型权重文件。
+## 📂 目录结构
+
+Handwritten-Digit-Recognition/
+├── data/               # 存放 MNIST 数据集的文件夹（运行data_setup.py下载）
+├── data_setup.py       # 数据下载与预处理工具脚本
+├── gui_app.py          # 基于 Tkinter 的桌面端交互程序（项目入口）
+├── train.py            # 训练模型并保存权重文件的脚本
+├── model.py            # 定义 CNN 神经网络结构的代码
+├── predict.py          # 包含图像预处理逻辑和推理功能的脚本
+├── requirements.txt    # 项目所需的库依赖清单（torch, cv2 等）
+├── test_digit.jpg      # 用于单次测试的示例图片
+└── mnist_cnn.pth       # 训练好的模型权重文件（大脑核心）
 
 ---
 
 ## 🚀 快速开始
-### 1. 克隆仓库
-```bash
-git clone [https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git](https://github.com/Aurora-lsh/Handwritten-Digit-Recognition.git)
-cd Handwritten-Digit-Recognition
-```
 
-### 2. 一键安装依赖 (使用已导出的 requirements.txt)
+### 1. 一键安装依赖 (使用已导出的 requirements.txt)
 ```bash
 pip install -r requirements.txt
 ```
 
 
-### 3. 运行桌面交互版 (GUI)
+### 2. 运行桌面交互版 (GUI)
 ```bash
 python gui_app.py
 ```
